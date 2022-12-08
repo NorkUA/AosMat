@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aostry2:
+    image: aostry2
+    build:
+      context: .
+      dockerfile: ./Dockerfile
